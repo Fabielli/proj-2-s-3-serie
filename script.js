@@ -31,4 +31,13 @@ const perguntas = [
                "Confronto das informações da inteligengia artificial e a pessoal"
        ]
     }
-     ]
+     ];
+     let atual=0;
+     letperguntaAtual;
+
+     function mostraPergunta(){
+     perguntaAtual = perguntas[atual];
+     caixaPerguntas.textContent = perguntaAtual.enunciado;
+     }
+
+     mostraPergunta();

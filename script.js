@@ -44,8 +44,10 @@ const perguntas = [
     }
 function mostraAlternativas(){
    for(const alternativa of perguntaAtual.caixaAlternativas){
-    console.log(alternativa);
-    
+    const botaoAlternativa= document.creatElement("button");
+    botaoAlternativas.textContent = alternativa;
+    caixaAlternativas.appendChild(botaoAlternativas);
+
    }
 }
 
